@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>JSON & Html Strings</title>
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- VENDOR SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- APPLICATION SCRIPTS -->
+    <script src="scripts/ignore-setup.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/ignore-evaluation.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Something Broke!</h1>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="well">
+            <h4>var data =</h4>
+            <pre></pre>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="well profile">
+            <h4>Can you fill in my profile?</h4>
+            <p>
+              My name is <span class="first_name">[first name]</span>
+              and I am a <span class="occupation">[occupation]</span>
+              from <span class="location">[location]</span>.
+            </p>
+            <p>
+              My friends describe me as <span class="qualities">[quality] [quality]</span>.
+            </p>
+            <p>
+              I have <span class="sibling_count">[#]</span> siblings. Their names and ages are:
+              <ul class="sibling_list">
+                <li>[Name] - [Age]</li> <!-- REMOVE EXAMPLE -->
+                <li>[Name] - [Age]</li> <!-- REMOVE EXAMPLE -->
+              </ul>
+            </p>
+            <p>
+              My hobbies are:
+              <span class="hobby_links">
+                [<a href="https://en.wikipedia.org/wiki/asdf">Hobby</a>] <!-- REMOVE EXAMPLE -->
+                [<a href="https://en.wikipedia.org/wiki/zfwer">Hobby</a>] <!-- REMOVE EXAMPLE -->
+              </span>
+            </p>
+            <p>
+              Here is a photo of me:
+              <br>
+              <img class="img-responsive center-block" src="http://placehold.it/350x150?text=[profile+image]" title="[profile image]">
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
